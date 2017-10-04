@@ -1,8 +1,8 @@
 {
-  "name": "insight-api",
-  "description": "A Bitcoin blockchain REST and web socket API service for Bitcore Node.",
-  "version": "0.4.3",
-  "repository": "git://github.com/bitpay/insight-api.git",
+  "name": "artbyte-api",
+  "description": "A ArtByte blockchain REST and web socket API service for ArtByte Node.",
+  "version": "0.4.4",
+  "repository": "git://github.com/Bushstar/artbyte-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,18 +38,18 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight-api/issues"
+    "url": "https://github.com/Bushstar/artbyte-api/issues"
   },
-  "homepage": "https://github.com/bitpay/insight-api",
+  "homepage": "https://github.com/Bushstar/artbyte-api",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "bitcoin api",
+    "artbyte api",
     "blockchain api",
     "json",
-    "bitcore"
+    "artbytecore"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -61,8 +61,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib": "^0.13.7",
-    "bitcore-message": "^1.0.1",
+    "artbytecore-lib": "^0.13.21",
+    "artbytecore-message": "^1.0.6",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
